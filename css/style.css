@@ -5,7 +5,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: Arial;
-	background-image: url("/images/background.jpg");
+	background-image: url("../images/background.jpg");
 	background-size: cover;
 }
 
@@ -40,13 +40,16 @@ body{
 	background-image: url(../images/balloon-green.png);
 }
 
+.balloon-violet {
+	background-image: url(../images/balloon-violet.png);
+}
+
 
 
 .total-shadow {
 	width: 100vw;
 	height: 100vh;
 	background: rgba(0,0,0,0.6);
-/*display:flex;*/
 	display: none;
 	
 	justify-content: center;
@@ -97,5 +100,11 @@ body{
 
 }
 
+button {
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
 
 

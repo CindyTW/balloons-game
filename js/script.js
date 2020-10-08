@@ -1,4 +1,4 @@
-let colors = ['yellow', 'red', 'blue', 'green'];
+let colors = ['yellow', 'red', 'blue', 'green', 'violet'];
 let windowWidth = window.innerWidth;
 let windowHeight = window.innerHeight;
 let body = document.body;
